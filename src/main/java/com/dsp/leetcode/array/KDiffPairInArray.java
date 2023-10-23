@@ -1,9 +1,7 @@
 package com.dsp.leetcode.array;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+import java.util.stream.Collectors;
 
 /*
 Given an array of integers and an integer k, you
@@ -33,20 +31,33 @@ public class KDiffPairInArray {
             map.put(i,map.getOrDefault(i,0)+1);
         }
 
+        //Using Arraylist
+        List<Integer> arr = Arrays.stream(array).boxed().collect(Collectors.toList());
+        List<int[]> ret2 = new ArrayList<>();
+        for(Integer a: arr){
+            if(arr.contains(a-k))
+                ret2.add( new int[]{a,a-k});
+        }
+
+        print(ret2);
 
         //iterate the map entryset and check if the map key contains current key value - the supplied k
         for (Map.Entry<Integer,Integer> entry: map.entrySet()) {
-            System.out.println(entry.getKey()+ ":"+entry.getValue());
+            //System.out.println(entry.getKey()+ ":"+entry.getValue());
             Integer need = entry.getKey() - k;
             if(map.containsKey(need))
                 ret.add( new int[]{entry.getKey(),need});
-        }
 
+        }
+        print(ret);
 
         //print
-        for (int[] a: ret) {
-            System.out.println(a[0]+","+a[1]);
-        }
+
     }
 
+    public static void print(List<int[]> array){
+        for (int[] a: array) {
+            System.out.println(a[0]+":"+a[1]);
+        }
+    }
 }
