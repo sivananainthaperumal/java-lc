@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34c0360b-a87e-498d-baad-f7f13981de3a" name="Changes" comment="kDiffPair">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsp/leetcode/array/KDiffPairInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dsp/leetcode/array/KDiffPairInArray.java" afterDir="false" />
+    <list default="true" id="34c0360b-a87e-498d-baad-f7f13981de3a" name="Changes" comment="kDiffPair using arraylist as well">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dsp/leetcode/array/ThirdMaxNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dsp/leetcode/stream/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dsp/leetcode/stream/ThirdMaxNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dsp/leetcode/stream/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +53,7 @@
       <recent name="com.dsp.leetcode.stream" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.dsp.leetcode.array.KDiffPairInArray">
+  <component name="RunManager" selected="Application.Anagram">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -79,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindFirstUniqueCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsp.leetcode.string.FindFirstUniqueCharacter" />
+    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsp.leetcode.stream.Anagram" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsp.leetcode.string.*" />
+          <option name="PATTERN" value="com.dsp.leetcode.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KDiffPairInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsp.leetcode.hashing.KDiffPairInArray" />
+    <configuration name="ThirdMaxNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsp.leetcode.stream.ThirdMaxNumber" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsp.leetcode.hashing.*" />
+          <option name="PATTERN" value="com.dsp.leetcode.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PascalTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsp.leetcode.array.PascalTriangle" />
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsp.leetcode.stream.TwoSum" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsp.leetcode.array.*" />
+          <option name="PATTERN" value="com.dsp.leetcode.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,7 +128,7 @@
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsp.leetcode.array.*" />
+          <option name="PATTERN" value="com.dsp.leetcode.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,8 +136,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.dsp.leetcode.stream.KDiffPairInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsp.leetcode.stream.KDiffPairInArray" />
+    <configuration name="com.dsp.leetcode.array.ThirdMaxNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsp.leetcode.array.ThirdMaxNumber" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -146,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Anagram" />
+        <item itemvalue="Application.TwoSum" />
+        <item itemvalue="Application.com.dsp.leetcode.array.ThirdMaxNumber" />
+        <item itemvalue="Application.ThirdMaxNumber" />
         <item itemvalue="Application.com.dsp.leetcode.array.KDiffPairInArray" />
-        <item itemvalue="Application.com.dsp.leetcode.stream.KDiffPairInArray" />
-        <item itemvalue="Application.KDiffPairInArray" />
-        <item itemvalue="Application.FindFirstUniqueCharacter" />
-        <item itemvalue="Application.PascalTriangle" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698076934618</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="kDiffPair using arraylist as well">
+      <created>1698077290425</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698077290425</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,7 +222,8 @@
     <MESSAGE value="pascal triangle" />
     <MESSAGE value="Find first uniquechar" />
     <MESSAGE value="kDiffPair" />
-    <option name="LAST_COMMIT_MESSAGE" value="kDiffPair" />
+    <MESSAGE value="kDiffPair using arraylist as well" />
+    <option name="LAST_COMMIT_MESSAGE" value="kDiffPair using arraylist as well" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -239,6 +252,19 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/dsp/leetcode/hashing/KDiffPairInArray.java</url>
           <line>36</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dsp/leetcode/stream/TwoSum.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dsp/leetcode/stream/Anagram.java</url>
+          <line>22</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
