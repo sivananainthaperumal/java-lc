@@ -14,15 +14,10 @@ import java.util.Arrays;
  */
 public class MoveZeroes {
 
-    public static int[] nums = {0,4,0,2,0,3,0,10};
+    public static int[] nums = {6, 0, 4, 1, 1,10, 1, 2, 0};
 
     public static void main(String[] args) {
         moveZeroUsingIteration(nums);
-
-        moveZeroUsingUsingQueue(nums);
-    }
-
-    private static void moveZeroUsingUsingQueue(int[] nums) {
     }
 
     private static void print(int[] array){

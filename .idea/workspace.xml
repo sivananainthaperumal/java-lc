@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34c0360b-a87e-498d-baad-f7f13981de3a" name="Changes" comment="Anagram">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dsp/leetcode/pointer/MoveZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dsp/leetcode/queue/MoveZeroes.java" afterDir="false" />
+    <list default="true" id="34c0360b-a87e-498d-baad-f7f13981de3a" name="Changes" comment="moveZeros">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dsp/leetcode/pointer/RemoveDuplicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dsp/leetcode/pointer/MoveZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dsp/leetcode/pointer/MoveZeroes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
       <recent name="com.dsp.leetcode.stream" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.dsp.leetcode.queue.MoveZeroes">
+  <component name="RunManager" selected="Application.RemoveDuplicates">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -107,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsp.leetcode.stream.TwoSum" />
+    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsp.leetcode.pointer.RemoveDuplicates" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsp.leetcode.stream.*" />
+          <option name="PATTERN" value="com.dsp.leetcode.pointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.dsp.leetcode.array.ThirdMaxNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsp.leetcode.array.ThirdMaxNumber" />
+    <configuration name="com.dsp.leetcode.array.MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsp.leetcode.array.MoveZeroes" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsp.leetcode.stream.*" />
+          <option name="PATTERN" value="com.dsp.leetcode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.dsp.leetcode.queue.MoveZeroes" />
+        <item itemvalue="Application.RemoveDuplicates" />
         <item itemvalue="Application.MoveZeroes" />
+        <item itemvalue="Application.com.dsp.leetcode.array.MoveZeroes" />
+        <item itemvalue="Application.com.dsp.leetcode.queue.MoveZeroes" />
         <item itemvalue="Application.Anagram" />
-        <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.com.dsp.leetcode.array.ThirdMaxNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698163536847</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="moveZeros">
+      <created>1698182943792</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698182943792</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,7 +235,8 @@
     <MESSAGE value="kDiffPair" />
     <MESSAGE value="kDiffPair using arraylist as well" />
     <MESSAGE value="Anagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="Anagram" />
+    <MESSAGE value="moveZeros" />
+    <option name="LAST_COMMIT_MESSAGE" value="moveZeros" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -270,6 +278,16 @@
             <option name="lambda-ordinal" value="-1" />
           </properties>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dsp/leetcode/pointer/RemoveDuplicates.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dsp/leetcode/pointer/RemoveDuplicates.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
