@@ -1,4 +1,4 @@
-package com.dsp.leetcode.stream;
+package com.dsp.leetcode.array;
 
 import java.util.Arrays;
 import java.util.stream.Collectors;

@@ -32,7 +32,7 @@ public class KDiffPairInArray {
                         .map(j ->new int[]{i,j}))
                 .collect(Collectors.toList());
 
-        pairs.stream().forEach(System.out::println);
+        pairs.stream().forEach(t-> System.out.println("("+t[0]+","+t[1]+")"));
 
         long count = Arrays.stream(array)
                 .boxed().flatMap(i-> Arrays.stream(array).boxed()

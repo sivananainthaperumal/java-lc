@@ -1,6 +1,10 @@
 package com.dsp.leetcode.string;
 
 
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 /*
  * Given a string, find the first non-repeating
  * character in it and return it's index. If it doesn't exist, return -1.
@@ -11,7 +15,7 @@ public class FindFirstUniqueCharacter {
 
     public static void main(String[] args) {
         System.out.println("Finding first unique character in a given string ..."+getIndexOfFirstUniqueChar("system"));
-
+        getIndexOfFirstUniqueCharUsingStream("sytem");
     }
 
     private static int getIndexOfFirstUniqueChar(String str) {
@@ -33,5 +37,13 @@ public class FindFirstUniqueCharacter {
         }
 
     }
+
+    public static void getIndexOfFirstUniqueCharUsingStream(String str){
+        System.out.println(Stream.of(str.split("")).distinct().findFirst().get());
+        List<String> chars = Stream.of(str.split("")).filter(i->str.indexOf(i)==str.lastIndexOf(i)).collect(Collectors.toList());
+        System.out.println(str.indexOf(Stream.of(str.split("")).filter(i->str.indexOf(i)==str.lastIndexOf(i)).findFirst().get()));
+    }
+
+
 
 }

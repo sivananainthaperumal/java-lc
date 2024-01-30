@@ -1,6 +1,7 @@
 package com.dsp.leetcode.stream;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.OptionalInt;
 
 /*
@@ -30,13 +31,13 @@ public class ThirdMaxNumber {
 
         System.out.println("Finding 3rd max number :");
 
-        int[] array = {1,20,3,40};
+        int[] array = {40,30,40,40};
         int truncate = 3;
         if(array.length<3){
             truncate =array.length;
         }
         System.out.println(Arrays.stream(array).sorted().distinct().skip(array.length-truncate).findFirst().orElse(0));
-
+        System.out.println(Arrays.stream(array).sorted().distinct().skip(array.length-truncate).findFirst().orElse(Arrays.stream(array).max().getAsInt()));
 
     }
 }

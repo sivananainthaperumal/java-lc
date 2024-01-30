@@ -1,4 +1,4 @@
-package com.dsp.leetcode.stream;
+package com.dsp.leetcode.array;
 
 /*
 Given an array of integers, return indices of the
@@ -19,7 +19,8 @@ Given an array of integers, return indices of the
  https://github.com/gouthampradhan/leetcode/blob/master/src/main/java/array/TwoSum.java
  */
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
 import java.util.stream.Collectors;
 
 public class TwoSum {
@@ -38,11 +39,12 @@ public class TwoSum {
                 .collect(Collectors.toList());
 
 
-        System.out.println(pair);
-        List<int[]> pair2 = pair.subList(0,(pair.size()/2));
-        System.out.println(pair2);
+        pair.forEach(t-> System.out.println(t[0]+","+t[1]));
         System.out.println("---");
-        Arrays.stream(nums).sorted().boxed().flatMap(i->Arrays.stream(nums).sorted().boxed().filter(j-> i+j==target).map(j->new int[]{i,j})).distinct().forEach(t-> System.out.println(t[0]+" "+t[1]));
+        List<int[]> pair2 = pair.subList(0,(pair.size()/2));
+        pair2.forEach(t-> System.out.println(t[0]+","+t[1]));
+
+
 
 
     }

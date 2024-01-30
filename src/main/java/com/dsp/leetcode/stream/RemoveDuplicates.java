@@ -14,5 +14,9 @@ public class RemoveDuplicates {
        arr.stream().forEach(i-> System.out.print(i+" "));
         System.out.println();
        System.out.println(arr.stream().count());
+
+       //
+        System.out.println("---");
+        Arrays.stream(nums).distinct().forEach(i-> System.out.print(i+" "));
     }
 }
